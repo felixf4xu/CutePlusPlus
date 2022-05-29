@@ -1,5 +1,13 @@
 # Cute++ / Cute Plus Plus / cutepp #
 
+## Prerequisites
+
+gtest: installed globally
+```cmake
+find_package(GTest REQUIRED)
+target_link_libraries(cutepp_test GTest::gtest GTest::gmock)
+```
+
 supported platforms (or should supported)
 
 - Windows *
